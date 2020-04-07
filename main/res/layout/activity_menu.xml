@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:enabled="false"/>
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:layout_below="@id/startGameButton"/>
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:layout_below="@id/settingsButton"/>
+</RelativeLayout>
